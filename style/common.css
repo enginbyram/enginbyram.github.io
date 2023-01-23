@@ -38,7 +38,16 @@ p {
 
 .id-section {
     padding: 25px 0;
-    line-height: 0.5;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img {
+    width: 128px;
+    height: 128px;
+    flex: 0;
 }
 
 #name {
@@ -50,6 +59,7 @@ p {
     font-size: 1.175em;
     text-align: end;
     opacity: 0.5;
+    display: none;
 }
 .project-section {
     padding: 25px;
